@@ -1,0 +1,154 @@
+html{
+	color: #F9F9F9;
+	font-size: 19.2px;
+	background-color: #090909;
+	font-family: "Overpass Mono", system-ui;
+}
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    height: 43px;
+}
+
+.logo{
+    width: 300px;
+    color: #F9F9F9;
+    font-size: 38.4px;
+}
+
+.nav{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
+}
+
+.project-list{
+    margin-top: 187px;
+    margin-left: 168px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 187px 168px 144px 168px;
+}
+
+p{
+    margin: 0px;
+}
+
+footer{
+    width: 100%;
+    background-color: #F9F9F9;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover{
+    color: #F90000;
+}
+
+.container{
+    margin-top: 56px;
+    margin-left: 96px;
+    display: flex;
+}
+
+.bot-container{
+    margin-left: 96px;
+    display: flex;
+    align-items: center;
+}
+
+.ext-nav-item{
+    margin-left: 110.344px;
+}
+
+.contact{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 96px;
+}
+
+.icons{
+    height: 34.4px;
+}
+
+.nav-item-2{
+    margin-right: 84.84px;
+}
+
+.nav-item-1{
+    margin-right: 96px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    margin-bottom: 30px;
+}
+
+.img-gallery{
+    margin-top: 35px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    gap: 1%;
+    margin-bottom: 1%;
+}
+
+.content-img{
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    gap: 1%;
+}
+
+.column {
+    flex: 25%;
+}
+  
+.column img {
+    width: 100%;
+}
+
+iframe{
+    margin-top: 35px;
+}
+
+.about-content{
+    display: flex;
+}
+
+.about-content > div{
+    width: 50%;
+}
+
+.about-img{
+    width: 100%;
+}
