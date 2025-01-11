@@ -2,7 +2,9 @@ html{
 	color: #F9F9F9;
 	font-size: 19.2px;
 	background-color: #090909;
-	font-family: "Overpass Mono", system-ui;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body{
@@ -20,6 +22,7 @@ header{
     width: 300px;
     color: #F9F9F9;
     font-size: 38.4px;
+    font-family: "Overpass Mono", system-ui;
 }
 
 .nav{
@@ -46,7 +49,6 @@ p{
 
 footer{
     width: 100%;
-    background-color: #F9F9F9;
     height: 96px;
     display: flex;
     justify-content: center;
@@ -88,7 +90,7 @@ a:hover{
 }
 
 .icons{
-    height: 34.4px;
+    height: 24px;
 }
 
 .nav-item-2{
